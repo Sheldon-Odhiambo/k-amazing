@@ -5,7 +5,7 @@ import { askKijanaStylist } from './services/geminiService';
 import { Button } from './components/Button';
 import { PRODUCTS, LOOKBOOK_IMAGES } from './constants';
 import { GoogleGenAI } from "@google/genai";
-import logo from './assets/ka-logo.png';
+import logo from '/assets/ka-logo.png';
 
 // --- Custom Hook for Scroll Parallax ---
 const useParallax = (speed: number = 0.1) => {
