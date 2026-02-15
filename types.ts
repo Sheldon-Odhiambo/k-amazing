@@ -1,5 +1,5 @@
 
-export type ViewId = 'home' | 'shop' | 'lookbook' | 'custom' | 'about' | 'collective' | 'product' | 'checkout';
+export type ViewId = 'home' | 'shop' | 'product' | 'lookbook' | 'custom' | 'about';
 
 export interface Product {
   id: number;
@@ -7,6 +7,7 @@ export interface Product {
   price: number;
   category: string;
   image: string;
+  hoverImage?: string; // New property for image swap effect
   color: string;
   description?: string;
   features?: string[];
@@ -21,5 +22,3 @@ export interface ChatMessage {
   role: 'user' | 'model';
   text: string;
 }
-
-export type Category = 'All' | 'Gym' | 'Retro' | 'Street' | 'Official' | 'Accessories';
