@@ -1,5 +1,8 @@
-
 {
-  "name": "Kijana Amazing - Elite Streetwear",
-  "description": "High-end athletic streetwear store featuring bespoke designs, an AI styling assistant, and a visual lookbook archive."
+  "name": "Kijana Amazing | Rooted in Grit",
+  "description": "Elite athletic gear for the modern visionary. High-end streetwear crafted with pastel precision and athletic endurance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
 }
