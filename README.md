@@ -1,4 +1,4 @@
-=# Kijana Amazing — Online Store
+# Kijana Amazing — Online Store
 
 **Kijana Amazing** is a youth-driven online fashion store blending street culture, athletic grit, and bold design.  
 Built for visionaries, creators, and go-getters who believe in breaking barriers and embracing brilliance.
@@ -39,11 +39,13 @@ This project powers the official **Kijana Amazing online store**, providing a sm
 
 ## ⚙️ Run Locally
 
-### Prerequisites
+### Prerequisite
+
 - Node.js installed on your machine
 
 ### Installation
 
 1. Install dependencies:
-   ```bash
-   npm install
+
+```bash
+npm install
